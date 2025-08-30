@@ -18,3 +18,12 @@ zip "$MASTER_ZIP" base16-*.zip
 rm base16-*.zip
 
 echo "Master zip created: $MASTER_ZIP"
+
+TAG="v0"
+echo "enter notes/changelog:"
+read NOTES
+if [ -z "$NOTES" ]; then
+    gh release create "$TAG" "$MASTER_ZIP" --title "$TAG" --generate-notes
+else
+    gh release create "$TAG" "$MASTER_ZIP" --title "$TAG" --notes "$NOTES"
+fi
