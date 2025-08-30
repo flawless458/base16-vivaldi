@@ -8,5 +8,8 @@
 2.  Open vivaldi **Settings > Themes** & click **Import** a theme.
 3.  Enjoy!
 
+### Personal Favorite
+![Black Metal Bathory Vivaldi](https://i.imgur.com/K0vbN1e.png)
+
 ### Tinted Gallery
 [Tinted Themeing](https://tinted-theming.github.io/tinted-gallery/) - Over 230 beautiful and ready-to-use color schemes!
